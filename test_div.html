@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background: #777777;
+        }
+
+        .container {
+            width: 100%;
+            height: 100%;
+            background: slategrey;
+        }
+
+        .box {
+            width: 1000px;
+            margin: 0 auto;
+        }
+
+        .container h2 {
+            color: #ffffff;
+            font-size: 50px;
+        }
+
+        .nav {
+            background: slategrey;
+        }
+
+        .nav ul {
+            justify-content: center;
+        }
+
+        .nav ul li {
+            display: inline-block;
+
+        }
+
+        .nav ul li a {
+
+            display: block;
+            color: #fff;
+            text-decoration: none;
+            width: 120px;
+            height: 50px;
+            font-size: 20px;
+            line-height: 50px;
+        }
+
+        .nav ul li a:hover {
+            color: salmon;
+        }
+        
+        .section-left{
+           width: 30%;
+           float: left;
+       }
+      .section-right{
+          border: 1px solid red;
+          padding: 10px;
+          margin-top: 5px;
+          width: 70%;
+          float: right;
+      }
+     
+      .main h1{
+          text-align: center;
+          color: tomato;
+          font-size: 50px;
+      }
+        /* footer */
+      .footer{
+          height: 100px;
+          background: slategrey;
+          position: fixed;
+          left: 0;
+          bottom: 0pt;
+          margin-bottom: 0;
+          color: #fff;
+          width: 100%;
+      }
+      .footer p{
+          font-size: 20px;
+          text-align: center;
+          height: 50px;
+          line-height: 100px;
+
+      }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <h2> <img src="../img/logo.png" alt="logo" style="width: 50px; height: auto;">&nbsp; Hello world </h2>
+            <div class="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">service</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br style="margin: 1px;">
+
+    <section class="section">
+     <div class="main box">
+        <h1>About me</h1>
+        <div class="section-left">
+          <img src="../img/programmer.png" alt="download.png" style="width: 200px;height: 150px;border-radius: 20px;">
+        </div>
+        <div class="section-right">
+            <p>
+                
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dolorum, ipsa quasi reprehenderit quis quod quibusdam optio nemo iure aliquam sunt vel vitae quam odio, sit dolores architecto laborum fugiat.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id iste mollitia, natus laborum molestias beatae architecto modi possimus recusandae velit labore doloribus quisquam, dolore amet. Deserunt iste odit facere expedita.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod repellat animi sit cum maiores est aspernatur deleniti quisquam error optio, sed atque fugit perspiciatis saepe. In ex aspernatur et autem.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi iste fugiat amet minima aliquid sit esse beatae corporis ipsum totam, voluptas vero sapiente tempore impedit minus excepturi neque magni reiciendis?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est cumque, nostrum molestias consequatur sint mollitia impedit eius maxime libero, cupiditate, maiores officia dolor qui pariatur sit nobis labore expedita accusantium?
+
+        
+            </p>
+        </div>
+    </div>
+    </section>
+    <div class="footer">
+        <div class="box">
+            <p>CopyRight &copy; 2030 Fashion Site.</p>
+        </div>
+    </div>
+</body>
+
+</html>
