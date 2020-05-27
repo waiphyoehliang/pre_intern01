@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI small Website</title>
+    <style>
+     * {
+         box-sizing: border-box;
+         margin: 0;
+         padding: 0;
+
+     }
+     html,body{
+         margin: 0;
+         padding: 0;
+     }
+     .header{
+         background: #777777;
+     }
+     .std-box{
+         /* center */
+         width: 1000px;
+         margin: 0 auto;
+     }
+     .header h1{
+         color: #ffffff;
+         font-size: 50px;
+     }
+       /* navigation */
+       .nav{
+           background: #000000;
+       }
+       .nav ul li{
+           
+           display: inline-block;
+       }
+       .nav ul li a{
+           display: block;
+           color: #fff;
+           text-decoration: none;
+           width: 120px;
+           height: 50px;
+           font-size: 20px;
+           line-height: 50px;
+       }
+       /* banner */
+       .banner{
+           height: 400px;
+           background: radial-gradient(rgba(255,255,255,0.1),rgba(0,0,0,0.8)),url(
+             https://press.farm/wp-content/uploads/2018/03/fashion-luxury-brands-marketing.jpg
+           )no-repeat top;
+           position: relative;
+       }
+       .banner h1{
+           color: #fff;
+           position: absolute;
+           top: 50%;
+           left: 50%;
+           font-size: 50px;
+           font-style: initial;
+           transform: translate(-50%, -50%);
+       }
+       .banner span{
+           color: rgb(36, 33, 33);
+       }
+       /* about me */
+       .main{
+           overflow: hidden;
+
+       }
+       .section-left{
+           width: 30%;
+           float: left;
+       }
+      .section-right{
+          width: 70%;
+          float: right;
+      }
+      .main h1{
+          text-align: center;
+          color: tomato;
+          font-size: 50px;
+      }
+      /* footer */
+      .footer{
+          height: 100px;
+          background: #000;
+          color: #fff;
+      }
+      .footer p{
+          font-size: 20px;
+          text-align: center;
+          height: 50px;
+          line-height: 100px;
+
+      }
+
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="std-box">
+            <h1>Fashion</h1>
+        </div>
+    </div>
+    <!-- navigation -->
+    <div class="nav">
+        <div class="std-box">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">service</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        </div>
+    </div>
+    <!-- slider -->
+    <div class="banner">
+        <h1>Welcome To <span>My Fashion</span></h1>
+       
+    </div>
+    <!-- about me -->
+    <div class="main std-box">
+        <h1>About me</h1>
+        <div class="section-left">
+          <img src="../img/download.png" alt="download.png" style="width: 200px;height: 150px;border-radius: 20px;">
+        </div>
+        <div class="section-right">
+            <p>
+                
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dolorum, ipsa quasi reprehenderit quis quod quibusdam optio nemo iure aliquam sunt vel vitae quam odio, sit dolores architecto laborum fugiat.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id iste mollitia, natus laborum molestias beatae architecto modi possimus recusandae velit labore doloribus quisquam, dolore amet. Deserunt iste odit facere expedita.
+        
+            </p>
+        </div>
+    </div>
+<br>
+<br>
+    <!-- footer -->
+    <div class="footer">
+        <div class="std-box">
+            <p>CopyRight &copy; 2030 Fashion Site.</p>
+        </div>
+
+    </div>
+</body>
+</html>
